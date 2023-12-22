@@ -4,8 +4,8 @@
         'header header'
         'sidebar content';
     gap: 10px;
-    grid-template-columns: 150px, 1fr;
-    grid-template-rows: 50px, 1fr;
+    grid-template-columns: 150px 1fr;
+    grid-template-rows: 50px 1fr;
 }
 
 .header {
@@ -24,4 +24,5 @@
 .item {
     border: 1px solid black;
     padding: 5px;
+    background-color: #CCE5FF;
 }
