@@ -20,6 +20,8 @@ from .views import *
 
 urlpatterns = [
     path('', main_page),
-    path('catalog/', catalog_page),
     path('about/', about_page),
+    path('article1/', article1),
+    path('article2/', article2),
+    path('article3/', article3),
 ]
